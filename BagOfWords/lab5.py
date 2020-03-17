@@ -3,10 +3,10 @@ from sklearn.svm import SVC
 from sklearn.metrics import f1_score, accuracy_scoreg
 import numpy as np
 
-train_sentences = np.load('data/dataLab5/training_sentences.npy', allow_pickle = True)
-train_labels = np.load('data/dataLab5/training_labels.npy')
-test_sentences = np.load('data/dataLab5/test_sentences.npy', allow_pickle = True)
-test_labels = np.load('data/dataLab5/test_labels.npy')
+train_sentences = np.load('data/training_sentences.npy', allow_pickle = True)
+train_labels = np.load('data/training_labels.npy')
+test_sentences = np.load('data/test_sentences.npy', allow_pickle = True)
+test_labels = np.load('data/test_labels.npy')
 
 def normalize_data(train_data, test_data, type=None):
     if type == "standard":
