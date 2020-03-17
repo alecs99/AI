@@ -1,2 +1,2 @@
 # Bag of Words 
-Am definit functia normalize_data pentru scalarea datelor
+Am definit functia <b>normalize_data<b> pentru scalarea datelor
