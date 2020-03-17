@@ -1,2 +1,2 @@
-# AI
+# A.I.
 A.I. Course 
